@@ -1,0 +1,444 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+  width: 100%;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+/* !_____________________________________________________________________________________________________________ */
+/** Heading Start */
+
+/* & Start */
+.main
+{
+  /* border: 2px solid red; */
+  height: 40px;
+  width: 100%;
+  padding-left: 5px;
+  background-color: #023b6d;
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+  top: 0px;
+
+}
+
+.main .first
+{
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 56px;
+  padding-left:18px;
+}
+
+.main .first .image img
+{
+  /* border: 2px solid yellow; */
+  width: 80%;
+  height:70%;
+  
+}
+
+.main .first .icons i
+{
+  /* border: 2px solid yellow; */
+  color: rgb(197, 196, 196);
+  padding: 5px;
+  font-size: 30px;
+  margin: -2px 1px 0px 0px;
+}
+
+.main .first .icons i:hover
+{
+  color: white;
+}
+
+
+/* & centter */
+.main .center
+{
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 170px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main .center h3
+{
+  color: white;
+  padding-top: 5px;
+}
+
+.main .center .chevron-icons
+{
+  padding-top: 9px;
+  color: rgb(197, 196, 196);
+}
+
+.main .center .chevron-icons:hover{
+  color: white;
+}
+
+/* & end */
+.main .last{
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 227px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .last .external-link
+{
+  color: rgba(201, 196, 196, 0.849);
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.main .last .external-link:hover
+{
+  color: white;
+
+}
+
+.main .last .download
+{
+  /* border: 1px solid yellow; */
+  color: white;
+  font-size: 15px;
+  background-color: #00a6eb;
+  line-height: 40px;
+  text-indent: 6px;
+  transition: all 0.5s;
+}
+
+.last .download a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.fa-download:before {
+  content: "\f019";
+  font-size: 20px;
+}
+
+.main .last .download:hover{
+  background-color: rgb(2, 188, 255);
+}
+/** Heading End */
+/* !____________________________________________________________________________________________________________________________________ */
+
+/** navbar starts */
+nav
+{
+    /* border: 1px solid red; */
+    padding: 20px;
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    box-shadow: 0px 10px 10px 5px rgba(225, 219, 219, 0.333);
+    background-color: white;
+}
+
+nav ul
+{
+    /* border: 8px solid green; */
+    display: inline;
+    margin-left: 649px;
+}
+
+nav ul li
+{
+    /* border: 1px solid yellow; */
+    display: inline;
+}
+
+nav .navbar-brand-logo
+{
+    margin-left: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #24325d;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    color: #24325d;
+    transition: color .5s;   
+}
+
+nav ul li a:hover
+{
+    color: #006fbe;
+}
+
+.current{
+  color:#00a6eb
+}
+/** navbar ends */
+/* !_______________________________________________________________________________________________________________________ */
+
+/** our story start */
+.our-story{
+  /* border: 2px solid red; */
+  margin-top: 116px;
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 110px;
+  padding-right: 110px;
+  background-color: #e0e1e457;
+  color: rgba(66, 66, 66, 0.824);
+}
+
+.our-story div{
+  /* border: 2px solid green; */
+  width: 100%;
+}
+
+.our-story .left{
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.our-story .right{
+  padding-top: 25px;
+  padding-left: 800px;
+}
+.our-story .right a{
+  text-decoration: none;
+  color: #006fbe;
+}
+
+/** our story ends */
+/* !_________________________________________________________________________________________________________________________ */
+
+/**  Card Start */
+.hi1 {
+  /* border: 2px solid blue; */
+  height: 717px;
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+div img{
+  transition: all 0.5s;
+}
+
+img:hover{
+  transform: scale(1.5);
+}
+
+.girls1{
+  /* border: 2px solid blue; */
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  /* transition: all 5s; */
+  position: relative;
+  z-index: -1;
+}
+
+.poster1{
+  height: 100%;
+  width: 100%;
+}
+
+.data1{
+  background-color: #fff;
+  height: 245px;
+  width: 90%;
+  border-top: 3px solid white;
+  position: relative;
+  top: -10%;
+  right: -5%;
+  text-align: center;
+  box-shadow: 2px 0px 30px 10px rgba(225, 219, 219, 0.333);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.data1:hover{
+  border-top: 5px solid #006fbe ;
+  transform: translate(100%,100%);
+
+}
+
+.poster1{
+  height: 659px;
+  width: 600px;
+}
+
+
+.poster1:hover .data1{
+  border-top: 5px solid #006fbe;
+}
+
+.poster1:hover img{
+  transform: scale(1.2);
+}
+
+.data1 h2{
+  padding-top: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #24325d;
+  font-weight: 550;
+}
+
+.data1 p{
+  padding-top: 20px;
+}
+
+.girls2{
+  /* border: 2px solid blue; */
+  height: 400px;
+  width: 600px;
+  overflow: hidden;
+  margin-left: 60px;
+  position: relative;
+  z-index: -1;
+}
+/* *--------------------------------------- */
+.poster2{
+  height: 100%;
+  width: 100%;
+  /* transition: all 2s; */
+}
+
+.girls2:hover .poster2{
+  transform: scale(1.2);
+}
+
+.data2{
+  background-color: #fff;
+  height: 245px;
+  width: 90%;
+  border-top: 3px solid white;
+  position: relative;
+  top: -10%;
+  right: -15%;
+  text-align: center;
+  box-shadow: 2px 0px 30px 10px rgba(225, 219, 219, 0.333);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.data2:hover{
+  border-top: 5px solid #006fbe ;
+
+}
+
+.poster2{
+  height: 659px;
+  width: 600px;
+}
+
+.poster2:hover .data2{
+  border-top: 5px solid #006fbe;
+}
+
+.poster2:hover img{
+  transform: scale(1.2);
+}
+
+.data2 h2{
+  padding-top: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #24325d;
+  font-weight: 550;
+}
+
+.data2 p{
+  padding-top: 20px;
+}
+/** Cards Ends */
+/* !_________________________________________________________________________________________________________________________ */
+
+/** Scroll Arrow starts */
+.scroll-arrow
+{
+    background-color: #006fbe;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 987;
+} 
+
+.scroll-arrow a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+     padding: 15px;
+     font-weight: bold;
+}
+/** Scroll Arrow ends */
+
+/*!________________________________________________________________________________________________________ */
+/* * Footer start */
+.footer{
+  font-size: 18px;
+  /* border: 2px solid red; */
+  margin-top: 10px;
+  height: 350px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #1d284b;
+  color: white;
+}
+
+.footer i{
+  /* border: 2px solid yellow; */
+  font-size: 20px;
+  padding: 10px;
+  margin:3px;
+  border-radius: 50%;
+  background-color: #006fbe;
+}
+
+.footer h1{
+  font-size: 45px;
+}
+
+.footer .final{
+  padding: 30px;
+}
+
+.footer .before{
+  padding-top: 30px;
+}
+
+.footer .end a{
+  text-decoration: none;
+  color: #006fbe;
+}
+
+/* * footer stop */
