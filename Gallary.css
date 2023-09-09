@@ -1,0 +1,443 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+  width: 100%;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+/* !_____________________________________________________________________________________________________________ */
+
+/** Heading Start */
+/* & start*/
+.main
+{
+  /* border: 2px solid red; */
+  height: 40px;
+  width: 100%;
+  padding-left: 5px;
+  background-color: #023b6d;
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+  top: 0px;
+
+}
+
+.main .first
+{
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 56px;
+  padding-left:18px;
+}
+
+.main .first .image img
+{
+  /* border: 2px solid yellow; */
+  width: 80%;
+  height:70%;
+  
+}
+
+.main .first .icons i
+{
+  /* border: 2px solid yellow; */
+  color: rgb(197, 196, 196);
+  padding: 5px;
+  font-size: 30px;
+  margin: -2px 1px 0px 0px;
+}
+
+.main .first .icons i:hover
+{
+  color: white;
+}
+
+
+/* & centter */
+.main .center
+{
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 170px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main .center h3
+{
+  color: white;
+  padding-top: 5px;
+}
+
+.main .center .chevron-icons
+{
+  padding-top: 9px;
+  color: rgb(197, 196, 196);
+}
+
+.main .center .chevron-icons:hover{
+  color: white;
+}
+
+/* & end */
+.main .last{
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 227px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .last .external-link
+{
+  color: rgba(201, 196, 196, 0.849);
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.main .last .external-link:hover
+{
+  color: white;
+
+}
+
+
+.main .last .download
+{
+  /* border: 1px solid yellow; */
+  color: white;
+  font-size: 15px;
+  background-color: #00a6eb;
+  line-height: 40px;
+  text-indent: 6px;
+  transition: all 0.5s;
+}
+
+.last .download a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.fa-download:before {
+  content: "\f019";
+  font-size: 20px;
+}
+
+.main .last .download:hover{
+  background-color: rgb(2, 188, 255);
+}
+/** Heading End */
+/* !____________________________________________________________________________________________________________________________________ */
+
+/** navbar starts */
+nav
+{
+    /* border: 1px solid red; */
+    padding: 20px;
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    box-shadow: 0px 10px 10px 5px rgba(225, 219, 219, 0.333);
+    background-color: white;
+}
+
+nav ul
+{
+    /* border: 8px solid green; */
+    display: inline;
+    margin-left: 649px;
+}
+
+nav ul li
+{
+    /* border: 1px solid yellow; */
+    display: inline;
+}
+
+nav .navbar-brand-logo
+{
+    margin-left: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #24325d;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    color: #24325d;
+    transition: color .5s;   
+}
+
+nav ul li a:hover
+{
+    color: #006fbe;
+}
+
+.current{
+  color:#00a6eb
+}
+
+/** navbar ends */
+
+/* !_______________________________________________________________________________________________________________________ */
+
+/** Gallery start */
+.our-story{
+  /* border: 2px solid red; */
+  margin-top: 116px;
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 110px;
+  padding-right: 110px;
+  background-color: #e0e1e457;
+  color: rgba(66, 66, 66, 0.824);
+
+}
+
+.our-story div{
+  /* border: 2px solid green; */
+  width: 100%;
+}
+
+.our-story .left{
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.our-story .right{
+  padding-top: 25px;
+  padding-left: 800px;
+}
+.our-story .right a{
+  text-decoration: none;
+  color: #006fbe;
+}
+
+/** Gallery ends */
+/* !_________________________________________________________________________________________________________________________ */
+
+/** Sub bar Start */
+
+  .sub{
+    /* border: 2px solid red; */
+    height: 100px;
+  }
+
+  .sub .bar{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 50px;
+  }
+
+  div ul li{
+    /* border: 2px solid yellow; */
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(116, 117, 117);
+    width: 100px;
+  }
+
+  .highlight{
+    color: #00a6eb;
+  }
+
+  li:hover{
+    color: #006fbe;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+/** Sub bar ends */
+
+/* !_________________________________________________________________________________________________________________________ */
+
+/** albumb starts */
+
+.album {
+  /* border: 2px solid blue; */
+  height: 1000px;
+  width: 100%;
+  padding-left: 16px;
+  padding-top: 50px;
+}
+
+img{
+  position: relative;
+  z-index: -1;
+}
+.paper{
+  width: 360px;
+  height: 273px;
+  position: relative;
+  overflow: hidden;
+}
+
+.paper img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid{
+  width: 90%;
+  height: 90%;
+  margin-top: 14px;
+  margin-left: 17px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.514);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0%;
+  transition: all 0.5s;
+  opacity: 0;
+  z-index: -1;
+}
+
+.grid p{
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.grid i{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.paper:hover .grid{
+  transform: scale(1.2);
+  opacity: 1;
+  
+}
+
+i:hover{
+  color: blue;
+}
+
+.grid::before{
+  content: "";
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  right: 100px;
+}
+
+.grid::after{
+  content: "";
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 100px;
+}
+
+.pages{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paper{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+/** album ends */
+
+/* !_________________________________________________________________________________________________________________________ */
+
+/** Scroll Arrow starts */
+.scroll-arrow
+{
+    background-color: #006fbe;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 987;
+} 
+
+.scroll-arrow a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+     padding: 15px;
+     font-weight: bold;
+}
+/** Scroll Arrow ends */
+
+/*!________________________________________________________________________________________________________ */
+/* * Footer start */
+.footer{
+  font-size: 18px;
+  /* border: 2px solid red; */
+  margin-top: 10px;
+  height: 350px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #1d284b;
+  color: white;
+}
+
+.footer i{
+  /* border: 2px solid yellow; */
+  font-size: 20px;
+  padding: 10px;
+  margin:3px;
+  border-radius: 50%;
+  background-color: #006fbe;
+}
+
+.footer h1{
+  font-size: 45px;
+}
+
+.footer .final{
+  padding: 30px;
+}
+
+.footer .before{
+  padding-top: 30px;
+}
+
+.footer .end a{
+  text-decoration: none;
+  color: #006fbe;
+}
+
+/* * footer stop */
